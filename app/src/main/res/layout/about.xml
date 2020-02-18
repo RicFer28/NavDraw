@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/colorPrimaryDark">
+
+    <ImageView
+        android:id="@+id/sitioCul"
+        android:layout_width="261dp"
+        android:layout_height="187dp"
+        android:layout_gravity="center"
+        android:src="@drawable/fallout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="135dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="317dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text=" Aplicacion creada por "
+        android:textColor="#FFC107"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sitioCul" />
+
+    <TextView
+        android:layout_width="309dp"
+        android:layout_height="130dp"
+        android:gravity="center"
+        android:text=" Richard Jojoa "
+        android:textColor="#00BCD4"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.242" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
